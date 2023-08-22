@@ -84,5 +84,5 @@ func main() {
 		poscloseRoute.POST("/posclose", posCloseController.PosClose)
 	}
 
-	server.Run(":1223")
+	server.Run(":1224")
 }
